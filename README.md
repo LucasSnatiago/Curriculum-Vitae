@@ -1,4 +1,4 @@
-# Curriculum Vitae
+# Curriculum Vitae [![Build PDF](https://github.com/LucasSnatiago/Curriculum-Vitae/actions/workflows/generate-pdf.yml/badge.svg)](https://github.com/LucasSnatiago/Curriculum-Vitae/actions/workflows/generate-pdf.yml)
 
 Meu Curriculum Vitae, criado a partir do modelo de LianTze Lim: A Customised CurVe CV.
 
