@@ -67,13 +67,17 @@
 \leftheader{%
   {\LARGE\bfseries\sffamily Lucas Santiago de Oliveira}
 
-  \makefield{\faEnvelope[regular]}{\href{mailto:lu.santi.oliveira@gmail.com}{\texttt{lu.santi.oliveira@gmail.com}}}
+  \makefield{\faEnvelope[regular]}
+  {\href{mailto:lu.santi.oliveira@gmail.com}{\texttt{lu.santi.oliveira@gmail.com}}}
   % fontawesome5 doesn't have the X icon so we use
   % the simpleicons package here instead; but some
   % font size adjustment might be needed
   % \makefield{{\scriptsize\simpleicon{x}}}{\!\href{https://x.com/overleaf_example}{\texttt{@overleaf\_example}}}
   \makefield{\faLinkedin}
   {\href{https://www.linkedin.com/in/lucassnatiago/}{\texttt{lucassnatiago}}}
+
+  \makefield{\faGithub}
+  {\href{https://github.com/LucasSnatiago}{\texttt{LucasSnatiago}}}
 
   %% Next line
   % \makefield{\faGlobe}{\url{http://example.example.org/}}
@@ -91,15 +95,20 @@
 \begin{document}
 \makeheaders[c]
 
-\makerubric{employment}
+\textbf{Aviso:} Este documento possui muitos hiperlinks para páginas externas. Caso não esteja vendo os links
+ou esteja visualizando em um documento impresso, favor visitar: \href{https://github.com/LucasSnatiago/Curriculum-Vitae}{https://github.com/LucasSnatiago/Curriculum-Vitae}
+e baixar a versão mais atualizada desse documento na aba Releases.
+
 \makerubric{education}
+\makerubric{employment}
+
+
+\makerubric{skills}
+\makerubric{misc}
 
 % If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
 %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
 \input{publications}
-
-\makerubric{skills}
-\makerubric{misc}
 
 \makerubric{referee}
 % \input{referee-full}
