@@ -22,7 +22,7 @@
 \DefineBibliographyStrings{english}{url={\textsc{url}}}
 
 %% Only needed if you want a Publication List
-\addbibresource{pesquisas.bib}
+\addbibresource{resources/pesquisas.bib}
 
 %% Specify your last name(s) and first name(s) (as given in the .bib) to automatically bold your own name in the publications list.
 %% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
@@ -86,7 +86,7 @@
 
 \rightheader{~}
 \begin{fullonly}
-\photo[r]{photo}
+\photo[r]{resources/photo}
 \photoscale{0.13}
 \end{fullonly}
 
@@ -108,18 +108,18 @@
 Caso não esteja vendo os links ou esteja visualizando em um documento impresso, favor visitar: \href{https://github.com/LucasSnatiago/Curriculum-Vitae}{https://github.com/LucasSnatiago/Curriculum-Vitae}
 e baixar a versão mais atualizada desse documento na aba Releases.
 
-\makerubric{education}
-\makerubric{employment}
+\makerubric{resources/education}
+\makerubric{resources/employment}
 
 
-\makerubric{skills}
-\makerubric{misc}
+\makerubric{resources/skills}
+\makerubric{resources/misc}
 
 % If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
 %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
-\input{publications}
+\input{resources/publications}
 
-\makerubric{referee}
+% \makerubric{resources/referee}
 % \input{referee-full}
 
 \end{document}
